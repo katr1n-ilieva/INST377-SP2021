@@ -22,10 +22,12 @@
     "connect-livereload": "^0.6.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "install": "^0.13.0",
     "livereload": "^0.9.1",
     "node-fetch": "^2.6.1",
     "node-sass-chokidar": "^1.5.0",
     "nodemon": "^2.0.4",
+    "npm": "^6.14.11",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^8.3.1",
     "recursive-readdir": "^2.2.2"
