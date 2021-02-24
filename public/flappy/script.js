@@ -1,20 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
   const bird = document.querySelector('.bird');
   const gameDisplay = document.querySelector('.game-container');
-  const ground = document.querySelector('.ground');
 
-  let birdLeft = 220;
+  const birdLeft = 220;
   let birdBottom = 100;
-  let gravity = 2;
+  const gravity = 2;
   let isGameOver = false;
-  let gap = 430;
+  const gap = 430;
 
   function startGame() {
     birdBottom -= gravity
     bird.style.bottom = `${birdBottom}px`;
     bird.style.left = `${birdLeft}px`;
   }
-  let gameTimerId = setInterval(startGame, 20);
+  const gameTimerId = setInterval(startGame, 20);
 
   function jump() {
     if (birdBottom < 500) birdBottom += 50;
@@ -39,8 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function generateObstacle() {
     let obstacleLeft = 500;
-    let randomHeight = Math.random() * 60;
-    let obstacleBottom = randomHeight;
+    const randomHeight = Math.random() * 60;
+    const obstacleBottom = randomHeight;
     const obstacle = document.createElement('div');
     const topObstacle = document.createElement('div');
     if (!isGameOver) {
