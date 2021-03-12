@@ -21,12 +21,9 @@
     "livereload": "^0.9.1",
     "node-fetch": "^2.6.1",
     "nodemon": "^2.0.4",
-<<<<<<< HEAD
     "npm": "^6.14.11",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^8.3.1",
-=======
->>>>>>> 44bd7ef0cd348ea6aef94554251d3fe6a0efbcf4
     "recursive-readdir": "^2.2.2"
   },
   "devDependencies": {
